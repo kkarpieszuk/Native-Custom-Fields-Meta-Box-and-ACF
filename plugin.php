@@ -9,4 +9,7 @@ License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
-add_filter( 'acf/settings/remove_wp_meta_box', '__return_false' );
+if ( version_compare( $GLOBALS['wp_version'], '5.0', '<' ) || function_exists( 'classic_editor_init_actions' ) ) {
+    add_filter( 'acf/settings/remove_wp_meta_box', '__return_false' );
+} 
+

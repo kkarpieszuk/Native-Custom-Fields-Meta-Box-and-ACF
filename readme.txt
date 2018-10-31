@@ -40,6 +40,13 @@ No, you will see native custom fields interface alongside ACF interface
 
 On the top of post edit screen click on the Screen Options and select checkbox to display Custom Fields
 
+The another reason might be you are using WordPress 5.0 or higher with Gutenberg editor. Gutenberg editor doesn't display 
+custom fields interface at all. If you want to see this UI, switch to classic editor 
+from <a href="https://wordpress.org/plugins/classic-editor/">this plugin</a>
+
+If you would like to see custom fields UI on the Gutenberg edit screen, I suggest 
+<a href="https://wordpress.org/plugins/custom-fields-gutenberg/">this plugin</a>. In this case you don't need my plugin at all. 
+
 == Screenshots ==
 
 1. Native WordPress custom fields interface
